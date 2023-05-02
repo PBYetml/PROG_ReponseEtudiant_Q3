@@ -1,0 +1,6 @@
+﻿  mainProjet1_S2.c
+O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Bignens_Damien\PROG_TEST3\PROJET1_S2_DAMIEN_BIGNENs\mainProjet1_S2.c(64,11): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Bignens_Damien\PROG_TEST3\PROJET1_S2_DAMIEN_BIGNENs\mainProjet1_S2.c(64,11): message : les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Bignens_Damien\PROG_TEST3\PROJET1_S2_DAMIEN_BIGNENs\mainProjet1_S2.c(64,11): message : l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
+O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Bignens_Damien\PROG_TEST3\PROJET1_S2_DAMIEN_BIGNENs\mainProjet1_S2.c(64,11): message : cet argument est utilisé comme taille de mémoire tampon
+  PROJET1_S2_DAMIEN_BIGNENs.vcxproj -> O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Bignens_Damien\PROG_TEST3\PROJET1_S2_DAMIEN_BIGNENs\Debug\PROJET1_S2_DAMIEN_BIGNENs.exe

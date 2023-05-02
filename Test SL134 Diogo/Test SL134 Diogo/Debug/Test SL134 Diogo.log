@@ -1,0 +1,8 @@
+﻿  Source.c
+F:\ETML\PROG\test\Test SL134 Diogo\Test SL134 Diogo\Source.c(33,16): warning C4018: '<' : incompatibilité signed/unsigned
+F:\ETML\PROG\test\Test SL134 Diogo\Test SL134 Diogo\Source.c(38,33): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'const char (*)[3]' sont différents
+F:\ETML\PROG\test\Test SL134 Diogo\Test SL134 Diogo\Source.c(38,27): warning C4024: 'strcpy' : types différents pour le paramètre formel et réel 2
+F:\ETML\PROG\test\Test SL134 Diogo\Test SL134 Diogo\Source.c(37,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\ETML\PROG\test\Test SL134 Diogo\Test SL134 Diogo\Source.c(38,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\ETML\PROG\test\Test SL134 Diogo\Test SL134 Diogo\Source.c(39,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  Test SL134 Diogo.vcxproj -> F:\ETML\PROG\test\Test SL134 Diogo\Debug\Test SL134 Diogo.exe

@@ -1,0 +1,11 @@
+﻿  Source.c
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(16,30): warning C4047: 'fonction' : les niveaux d'indirection de 'const char *' et de 'char' sont différents
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(16,23): warning C4024: 'strcat' : types différents pour le paramètre formel et réel 2
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(21,45): warning C4267: '=' : conversion de 'size_t' en 'char', perte possible de données
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(15,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(16,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(17,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(18,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(19,2): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Users\dambignens\Desktop\question3_test_damien\question3_test_damien\Source.c(20,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  question3_test_damien.vcxproj -> C:\Users\dambignens\Desktop\question3_test_damien\Debug\question3_test_damien.exe
