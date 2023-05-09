@@ -13,7 +13,11 @@ void main()
 	strcpy(tbMSGComplet, pt_message);
 	tbMSGComplet[4] = version;
 	tbMSGComplet[5] = " ";
-	strcat(tbMSGComplet, tbMSG);
+	for (i = 0; i < strlen(tbMSG); i++)
+	{
+		tbMSGComplet[5 + i] = tbMSG[i];
+	}
+	tbMSGComplet[5 + strlen(tbMSG)] = "\0";
 	itoa(annee, str, 10);
 	strcat(tbMSGComplet, str);
 }
