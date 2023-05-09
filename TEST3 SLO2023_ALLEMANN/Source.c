@@ -6,6 +6,8 @@
 
 #define TITRE "TEST"
 
+// A effacer - juste pour demo 
+
 void main() {
 	const char* pt_message = TITRE;
 	const char tbMSG[] = { 0x53,0x4C,0x4F };
