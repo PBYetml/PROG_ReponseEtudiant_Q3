@@ -1,6 +1,1 @@
-﻿  Source.c
-C:\Users\kevallemann\source\repos\TEST3 SLO2023\Source.c(20,17): warning C4047:  'fonction' : les niveaux d'indirection de 'char *' et de 'char' sont différents
-C:\Users\kevallemann\source\repos\TEST3 SLO2023\Source.c(20,17): warning C4024:  'itoa' : types différents pour le paramètre formel et réel 2
-C:\Users\kevallemann\source\repos\TEST3 SLO2023\Source.c(15,6): warning C4101:  'i' : variable locale non référencée
-C:\Users\kevallemann\source\repos\TEST3 SLO2023\Source.c(15,6): warning C4101: C:\Users\kevallemann\source\repos\TEST3 SLO2023\Source.c(20) : error C4700: variable locale 'b' non initialisée utilisée
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): error MSB6006: Arrêt de "CL.exe" avec le code 2.
+﻿  TEST3 SLO2023.vcxproj -> C:\Users\kevallemann\source\repos\Test3 Slo2023 git\TEST3 SLO2023_ALLEMANN\Debug\TEST3 SLO2023.exe
