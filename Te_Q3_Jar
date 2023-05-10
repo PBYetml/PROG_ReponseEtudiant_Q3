@@ -1,1 +1,23 @@
+#define TITRE "TEST"
 
+void main()
+{
+	const char* pt_message = TITRE;
+	const char tbMSG[] = { 0x53, 0x4C, 0x4F };
+	char tbMSGComplet[15];
+	int annee = 2022;
+	int8_t version = 0x33;
+
+	// Mes instructions
+	char str[5];
+	strcpy(tbMSGComplet, pt_message);
+	tbMSGComplet[4] = version;
+	tbMSGComplet[5] = " ";
+	for (i = 0; i < strlen(tbMSG); i++)
+	{
+		tbMSGComplet[5 + i] = tbMSG[i];
+	}
+	tbMSGComplet[5 + strlen(tbMSG)] = "\0";
+	itoa(annee, str, 10);
+	strcat(tbMSGComplet, str);
+}
