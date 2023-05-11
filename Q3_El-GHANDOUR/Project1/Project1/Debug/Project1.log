@@ -1,4 +1,2 @@
 ﻿  point3.c
-C:\Users\abdel-ghand\source\repos\Project1\Project1\point3.c(19,9): warning C4477:  'printf' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 1 est de type 'char *'
-C:\Users\abdel-ghand\source\repos\Project1\Project1\point3.c(17,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  voir la déclaration de 'strcpy'
+  Project1.vcxproj -> C:\Users\larss\Documents\Mes_projets_ETML\Solution_Q3_Nasser\Q3_El-GHANDOUR\Project1\Debug\Project1.exe
