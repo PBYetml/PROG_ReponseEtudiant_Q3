@@ -15,8 +15,8 @@ void main()
 	char str[5];
 	unsigned char 1 = 0;
 	strcpy(tbMSGComplet, pt_message); 
-	tbMSGComplet[strlen(pt_message) + 1] = version;
-	tbMSGComplet[strlen(pt_message) + 2] = ' ';
+	tbMSGComplet[strlen(pt_message)] = version;
+	tbMSGComplet[strlen(pt_message) + 1] = ' ';
 	for (i = 0; i < sizeof(tbMSG); i++)
 	{
 		tbMSGComplet[strlen(pt_message) + 2 + i] = tbMSG[i];
