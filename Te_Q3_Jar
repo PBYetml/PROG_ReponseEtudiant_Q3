@@ -1,3 +1,5 @@
+#include <stdint.h>
+#include <string.h>
 #define TITRE "TEST"
 
 void main()
@@ -10,14 +12,15 @@ void main()
 
 	// Mes instructions
 	char str[5];
-	strcpy(tbMSGComplet, pt_message);
-	tbMSGComplet[4] = version;
-	tbMSGComplet[5] = " ";
+	unsigned char 1 = 0;
+	strcpy(tbMSGComplet, pt_message); 
+	tbMSGComplet[strlen(pt_message) + 1] = version;
+	tbMSGComplet[strlen(pt_message) + 2] = ' ';
 	for (i = 0; i < strlen(tbMSG); i++)
 	{
-		tbMSGComplet[5 + i] = tbMSG[i];
+		tbMSGComplet[strlen(pt_message) + 2 + i] = tbMSG[i];
 	}
-	tbMSGComplet[5 + strlen(tbMSG)] = "\0";
+	tbMSGComplet[strlen(pt_message)+ 2 + strlen(tbMSG)] = '\0';
 	itoa(annee, str, 10);
 	strcat(tbMSGComplet, str);
 }
