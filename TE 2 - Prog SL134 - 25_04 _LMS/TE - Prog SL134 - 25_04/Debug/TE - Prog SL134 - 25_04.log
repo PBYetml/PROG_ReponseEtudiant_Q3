@@ -1,2 +1,2 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu _main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-O:\APPLICATIONS\Echanges_Eleves\ES\SLO1\Mendes_Leo\Epreuves\PROG\TE 2 Prog\TE - Prog SL134 - 25_04\Debug\TE - Prog SL134 - 25_04.exe : fatal error LNK1120: 1 externes non résolus
+﻿  Test SLO2023.c
+  TE - Prog SL134 - 25_04.vcxproj -> C:\Users\thebi\Desktop\PROG_ReponseEtudiant_Q3-main\TE 2 - Prog SL134 - 25_04 _LMS\Debug\TE - Prog SL134 - 25_04.exe
