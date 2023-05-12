@@ -18,7 +18,7 @@ void main()
 	tbMSGComplet[strlen(pt_message) + 2] = ' ';
 	for (i = 0; i < strlen(tbMSG); i++)
 	{
-		tbMSGComplet[5 + i] = tbMSG[i];
+		tbMSGComplet[strlen(pt_message) + 2 + i] = tbMSG[i];
 	}
 	tbMSGComplet[strlen(pt_message)+ 2 + strlen(tbMSG)] = '\0';
 	itoa(annee, str, 10);
