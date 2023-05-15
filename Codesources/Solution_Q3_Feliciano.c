@@ -15,20 +15,16 @@ void main()
 	int annee = 2022;
 	int8_t version = 0x33;
 
-	//char string[5];
 
-	for (char i = 0; i < strlen(pt_message); i++)
-	{
-		tbMSGComplet[i] = pt_message[i];
-	}
-	// Copie du nombre "3"
-	strcpy(&tbMSGComplet[4], &version);		
-	tbMSGComplet[5] = ' ';
-	// Copie du mot "SLO"
-	strcat(&tbMSGComplet[6], &tbMSG);
-	// Copie du nombre "2022"
-	itoa(annee, &tbMSGComplet[9], 10);
+	strcpy(tbMSGComplet, pt_message);	//Copie de la valeur de pt_message dans tbMSGComplet => "TEST"
+	
+	strncat(tbMSGComplet, &version, 1);	// Copie du nombre "3"	
+	tbMSGComplet[5] = ' ';				// Ajout d'un esspace dans la case n°5 de tbMSGComplet
+	
+	strncat(&tbMSGComplet[6], &tbMSG, sizeof(tbMSG) / sizeof(char));	// Copie du mot "SLO" stocké dans le tableau tbMSG
+	
+	itoa(annee, &tbMSGComplet[strlen(tbMSGComplet)], 10);				// Copie du nombre "2022" stocké dans la variable annee
 
 	
-	printf("%s \n",tbMSGComplet);
+	printf("%s \n",tbMSGComplet);		//Affichage du tableau tbMSGComplet
 }
